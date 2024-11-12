@@ -1,0 +1,86 @@
+[
+  {
+      "id": 1,
+      "nombre": "Smart TV Samsung 55\"",
+      "precio": 250000,
+      "categoria": "Smart TV",
+      "imagen": "https://example.com/images/smart-tv-samsung.jpg"
+  },
+  {
+      "id": 2,
+      "nombre": "Smart TV LG 65\"",
+      "precio": 320000,
+      "categoria": "Smart TV",
+      "imagen": "https://example.com/images/smart-tv-lg.jpg"
+  },
+  {
+      "id": 3,
+      "nombre": "Smart TV Sony 43\"",
+      "precio": 280000,
+      "categoria": "Smart TV",
+      "imagen": "../images/smart-43-S.jpg"
+  },
+  {
+      "id": 4,
+      "nombre": "Smartphone Samsung Galaxy S21",
+      "precio": 120000,
+      "categoria": "Smartphone",
+      "imagen": "https://example.com/images/samsung-galaxy-s21.jpg"
+  },
+  {
+      "id": 5,
+      "nombre": "Smartphone iPhone 13",
+      "precio": 150000,
+      "categoria": "Smartphone",
+      "imagen": "https://example.com/images/iphone-13.jpg"
+  },
+  {
+      "id": 6,
+      "nombre": "Smartphone Xiaomi Mi 11",
+      "precio": 80000,
+      "categoria": "Smartphone",
+      "imagen": "https://example.com/images/xiaomi-mi-11.jpg"
+  },
+  {
+      "id": 7,
+      "nombre": "Proyector Epson X3000",
+      "precio": 60000,
+      "categoria": "Proyector",
+      "imagen": "https://example.com/images/proyector-epson.jpg"
+  },
+  {
+      "id": 8,
+      "nombre": "Proyector BenQ W2700",
+      "precio": 70000,
+      "categoria": "Proyector",
+      "imagen": "https://example.com/images/proyector-benq.jpg"
+  },
+  {
+      "id": 9,
+      "nombre": "Proyector LG PF50KA",
+      "precio": 50000,
+      "categoria": "Proyector",
+      "imagen": "https://example.com/images/proyector-lg.jpg"
+  },
+  {
+      "id": 10,
+      "nombre": "PC Gamer ASUS ROG",
+      "precio": 1500000,
+      "categoria": "PC Gamer",
+      "imagen": "https://example.com/images/pc-gamer-asus.jpg"
+  },
+  {
+      "id": 11,
+      "nombre": "PC Gamer Alienware",
+      "precio": 1800000,
+      "categoria": "PC Gamer",
+      "imagen": "https://example.com/images/pc-gamer-alienware.jpg"
+  },
+  {
+      "id": 12,
+      "nombre": "PC Gamer MSI Trident",
+      "precio": 1200000,
+      "categoria": "PC Gamer",
+      "imagen": "https://example.com/images/pc-gamer-msi.jpg"
+  }
+]
