@@ -1,4 +1,4 @@
-console.log("Script cargado"); // Confirmación de carga
+console.log("Script cargado");
 
 // Inicializar carrito desde localStorage o vacío
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
@@ -52,14 +52,14 @@ function actualizarCarrito() {
     mostrarCarrito();
 }
 
-// Función para mostrar el carrito (igual que antes)
+// Función para mostrar el carrito
 function mostrarCarrito() {
-    const carritoContainer = document.getElementById("carrito-container");
+    const carritoContainer = document.getElementById("cart-items");
     carritoContainer.innerHTML = ""; // Limpiar el contenedor
 
     let total = 0;
     carrito.forEach((producto, index) => {
-        const productoDiv = document.createElement("div");
+        const productoDiv = document.createElement("li");
         productoDiv.classList.add("producto");
         productoDiv.innerHTML = `
             <p>${producto.nombre} - $${producto.precio}</p>
@@ -86,6 +86,13 @@ function vaciarCarrito() {
     actualizarCarrito();
     localStorage.removeItem("carrito");
     alert("Carrito vaciado.");
+}
+
+// Función para mostrar/ocultar el carrito (toggle)
+function toggleCarrito() {
+    const carritoModal = document.getElementById("shopping-cart");
+    console.log("Toggling carrito");
+    carritoModal.classList.toggle("hidden"); // Alternar visibilidad del carrito
 }
 
 // Cargar los productos al cargar la página

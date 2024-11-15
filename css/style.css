@@ -1,0 +1,167 @@
+/* Estilos Generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  overflow-x: hidden; /* Evita el desbordamiento horizontal cuando se abre el carrito */
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #222;
+  color: #fff;
+}
+
+/* Estilo para la sección de productos */
+#productos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.producto h3 {
+  margin: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.producto p {
+  margin: 0 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Modal del carrito */
+#shopping-cart {
+  position: fixed;
+  top: 0;
+  right: 0px; /* Inicialmente fuera de la pantalla */
+  width: 400px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto;
+  transition: right 0.5s ease; /* Deslizar el modal */
+  z-index: 9999;
+}
+
+/* Fondo semi-transparente detrás del carrito */
+#shopping-cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro pero con transparencia */
+  z-index: 9998;
+  display: none; /* Inicialmente oculto */
+}
+
+/* Mostrar el modal del carrito */
+#shopping-cart.visible {
+  right: -400; /* El modal se desliza hacia la pantalla */
+}
+
+/* Mostrar el fondo del overlay cuando el carrito está visible */
+#shopping-cart-overlay.visible {
+  display: block;
+}
+
+/* Estilo para los productos dentro del carrito */
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cart-items li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cart-items li button {
+  background-color: #dc3545;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#cart-items li button:hover {
+  background-color: #c82333;
+}
+
+/* Total y Vaciar carrito */
+#total {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+button:focus, .icono-carrito:focus {
+  outline: none;
+}
+
+/* Estilo para el ícono del carrito */
+#carrito-icono {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: transform 3.5s ease-in;
+  z-index: 10000;
+}
+
+#carrito-icono:hover {
+  transform: scale(1.1);
+}
+
+.icono-carrito {
+  width: 35px;
+  height: auto;
+  filter: invert(1);
+}

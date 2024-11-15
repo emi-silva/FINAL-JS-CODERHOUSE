@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <title>Electronica Rosario</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Electrónica Rosario</title>
 </head>
 <body>
     <header>
@@ -15,15 +15,19 @@
         </div>
     </header>
 
-    <!-- Sección de productos -->
-    <div id="productos-container"></div>
-
-    <!-- Sección del carrito (oculta inicialmente) -->
-    <div id="carrito" class="carrito oculto">
-        <h2>Carrito de Compras</h2>
-        <div id="carrito-container"></div>
+    <!-- Modal del carrito (oculto inicialmente) -->
+    <section id="shopping-cart" class="hidden">
+        <h3>Carrito de Compras</h3>
+        <ul id="cart-items">
+            <!-- Aquí se agregarán productos dinámicamente -->
+        </ul>
         <p id="total">Total: $0</p>
         <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    </section>
+
+    <!-- Sección de productos -->
+    <div id="productos-container">
+        <!-- Productos dinámicos se cargarán aquí -->
     </div>
 
     <!-- Footer para sección de contacto -->
