@@ -15,6 +15,69 @@ h1 {
   background-color: #06011f
 }
 
+/* Estilo para la sección de reseña */
+#reseña {
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo más transparente */
+  border-radius: 15px;
+  padding: 40px;
+  margin: 20px auto;
+  width: 95%; /* Aumentamos el ancho */
+  max-width: 1350px; /* Limitar el ancho máximo */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  text-align: center; /* Centrar todo el texto dentro del cuadro */
+}
+
+/* Estilo para los títulos */
+#reseña .contenido-reseña h2 {
+  font-size: 2rem; /* Aumentamos el tamaño del título */
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#reseña .contenido-reseña h3 {
+  font-size: 1.6rem; /* Aumentamos el tamaño de los subtítulos */
+  color: #333;
+  margin-top: 15px;
+}
+
+#reseña .contenido-reseña ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#reseña .contenido-reseña ul li {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#reseña .contenido-reseña p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6; /* Aumentamos el interlineado para mejor lectura */
+  margin-bottom: 20px;
+}
+
+/* Estilo para el título "Nuestros Productos" */
+#productos-titulo {
+  text-align: center; /* Centrar el título */
+  margin: 40px 0; /* Espaciado superior e inferior */
+  padding: 20px; /* Relleno alrededor del título */
+  background-color: rgba(0, 0, 0, 0.1); /* Fondo oscuro y ligeramente translúcido */
+  border-radius: 10px; /* Bordes redondeados */
+  width: 80%; /* Ancho del título */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#productos-titulo h2 {
+  font-size: 2.5rem; /* Tamaño grande del título */
+  color: #b69b00; /* Color dorado */
+  font-weight: bold;
+  margin: 0; /* Sin margen superior */
+}
+
 /* Estilo para la sección de productos */
 #productos-container {
   display: grid;
@@ -175,4 +238,74 @@ button:focus, .icono-carrito:focus {
   width: 35px;
   height: auto;
   filter: invert(1);
+}
+
+/* Nuevo estilo para el botón Confirmar Compra */
+#confirmar-compra {
+  background-color: #007bff;  /* Azul */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold; /* Hacer el texto del botón más fuerte */
+  transition: background-color 0.3s ease;
+  width: 80%; /* Botón ocupa todo el ancho del recuadro */
+}
+
+#confirmar-compra:hover {
+  background-color: #0056b3; /* Un azul más oscuro al hacer hover */
+  transform: scale(1.05); /* Agrandar el botón ligeramente */
+}
+
+/* Espaciado para los botones dentro del carrito */
+#shopping-cart button {
+  margin-bottom: 10px;
+}
+
+/* Estilo para el footer */
+footer {
+  background-color: #06011f; /* Color oscuro para el fondo */
+  color: #b69b00; /* Color dorado para el texto */
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #b69b00; /* Color dorado para los enlaces */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff; /* Cambiar color al hacer hover */
+}
+
+footer .contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+footer .contact-info p {
+  margin: 0;
 }

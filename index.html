@@ -17,6 +17,29 @@
         </div>
     </header>
 
+      <!-- Reseña de Electrónica Rosario -->
+      <section id="reseña">
+        <div class="contenido-reseña">
+            <h2>Electrónica Rosario: Tu tienda de confianza en productos electrónicos</h2>
+            <p>En <strong>Electrónica Rosario</strong>, somos una división especializada en la venta de productos electrónicos de calidad, parte de la familia <strong>esweb.com</strong>. Con más de 10 años de experiencia en el mercado, nuestra misión es ofrecerte la mejor tecnología a precios competitivos, garantizando una experiencia de compra única y satisfactoria.</p>
+            <p>Contamos con un catálogo de productos cuidadosamente seleccionado, que incluye lo último en dispositivos electrónicos, desde smartphones y laptops hasta gadgets innovadores para el hogar y entretenimiento. Nos destacamos por nuestro enfoque al cliente, brindando asesoramiento personalizado y soporte postventa para asegurarnos de que encuentres exactamente lo que buscas.</p>
+
+            <h3>Por qué elegirnos:</h3>
+            <ul>
+                <li><strong>Variedad de productos:</strong> Los mejores equipos de las marcas más reconocidas del mercado.</li>
+                <li><strong>Precios accesibles:</strong> Ofrecemos productos de alta calidad a precios que se ajustan a tu presupuesto.</li>
+                <li><strong>Atención al cliente:</strong> Estamos aquí para ayudarte antes, durante y después de tu compra.</li>
+                <li><strong>Envíos rápidos y seguros:</strong> Recibe tus productos en la comodidad de tu hogar en tiempo récord.</li>
+            </ul>
+
+            <p><strong>Electrónica Rosario</strong>, como parte de <strong>esweb.com</strong>, es tu aliado ideal para mantenerte actualizado con lo último en tecnología. Nos enorgullece ser parte de tu día a día, proporcionando productos que mejoran tu vida digital.</p>
+        </div>
+    </section>
+
+    <section id="productos-titulo">
+        <h2>Nuestros Productos</h2>
+    </section>    
+
     <!-- Modal del carrito (oculto inicialmente) -->
     <section id="shopping-cart" class="hidden">
         <h3>Carrito de Compras</h3>
@@ -24,7 +47,12 @@
             <!-- Aquí se agregarán productos dinámicamente -->
         </ul>
         <p id="total">Total: $0</p>
-        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        
+        <!-- Botón para vaciar el carrito con confirmación -->
+        <button onclick="confirmarVaciadoCarrito()">Vaciar Carrito</button>
+
+        <!-- Nuevo botón para confirmar la compra -->
+        <button onclick="confirmarCompra()">Confirmar Compra</button>
     </section>
 
     <!-- Sección de productos -->
@@ -35,10 +63,13 @@
     <!-- Footer para sección de contacto -->
     <footer>
         <h3>Contacto</h3>
-        <p>Email: esweb.rosario@gmail.com</p>
-        <p>Teléfono: +54 9 341 123 4567</p>
+            <div class="contact-info">
+            <p>Email: <a href="mailto:esweb.rosario@gmail.com">esweb.rosario@gmail.com</a></p>
+            <p>Teléfono: <a href="tel:+543411234567">+54 9 341 123 4567</a></p>
+            </div>
+            <p class="derechos-reservados">Electrónica Rosario es una división de <a href="https://www.esweb.com" target="_blank">esweb.com</a>. &copy; Todos los derechos reservados.</p>
     </footer>
-    
+
     <script src="./js/main.js"></script>
     <!-- Enlace al script de SweetAlert2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
