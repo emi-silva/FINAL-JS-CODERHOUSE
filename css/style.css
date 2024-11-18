@@ -3,17 +3,16 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
+  background-color: #06011f;;
   overflow-x: hidden; /* Evita el desbordamiento horizontal cuando se abre el carrito */
 }
 
 h1 {
   font-size: 2rem;
-  color: #333;
+  color: #b69b00;
   text-align: center;
-  padding: 20px 0;
-  background-color: #222;
-  color: #fff;
+  padding: 0% 0;
+  background-color: #06011f
 }
 
 /* Estilo para la sección de productos */
@@ -25,61 +24,73 @@ h1 {
 }
 
 .producto {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9; /* Color de fondo más suave */
+  border-radius: 15px; /* Bordes más redondeados */
+  box-shadow: 0 6px 15px rgba(176, 179, 1, 0.589); /* Sombra más profunda */
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añadir transición para la sombra */
 }
 
 .producto:hover {
   transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(218, 186, 6, 0.356); /* Sombra más prominente al hacer hover */
 }
 
 .producto img {
-  width: 100%;
-  height: 200px;
+  width: 60%; /* Asegurarse de que la imagen ocupe todo el ancho disponible */
+  height: 290px;
   object-fit: cover;
+  display: block; /* Asegura que la imagen esté centrada */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 .producto h3 {
-  margin: 10px;
-  font-size: 1.2rem;
+  margin: 15px;
+  font-size: 1.4rem;
   color: #333;
+  font-family: 'Arial', sans-serif; /* Cambiar la fuente */
+  font-weight: bold; /* Hacer que el título sea más fuerte */
+  text-align: center; /* Centrar el título */
 }
 
 .producto p {
-  margin: 0 10px;
+  margin: 0 15px;
   font-size: 1rem;
-  color: #666;
+  color: #777;
+  font-family: 'Arial', sans-serif; /* Cambiar la fuente */
+  text-align: center; /* Centrar el texto */
 }
 
 button {
   background-color: #28a745;
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 12px 20px;
   cursor: pointer;
   border-radius: 5px;
-  margin: 10px;
+  margin: 10px auto;
+  display: block;
   font-size: 1rem;
+  font-weight: bold; /* Hacer el texto del botón más fuerte */
   transition: background-color 0.3s ease;
+  width: 80%; /* Botón ocupa todo el ancho del recuadro */
 }
 
 button:hover {
   background-color: #218838;
+  transform: scale(1.05); /* Agrandar el botón ligeramente */
 }
 
 /* Modal del carrito */
 #shopping-cart {
   position: fixed;
   top: 0;
-  right: 0px; /* Inicialmente fuera de la pantalla */
+  right: -400px; /* Inicialmente fuera de la pantalla */
   width: 400px;
   height: 100vh;
   background-color: #fff;
   box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 0px;
   overflow-y: auto;
   transition: right 0.5s ease; /* Deslizar el modal */
   z-index: 9999;
@@ -99,7 +110,7 @@ button:hover {
 
 /* Mostrar el modal del carrito */
 #shopping-cart.visible {
-  right: -400; /* El modal se desliza hacia la pantalla */
+  right: 0; /* El modal se desliza hacia la pantalla */
 }
 
 /* Mostrar el fondo del overlay cuando el carrito está visible */

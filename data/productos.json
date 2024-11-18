@@ -2,85 +2,85 @@
   {
       "id": 1,
       "nombre": "Smart TV Samsung 55\"",
-      "precio": 250000,
+      "precio": 950000,
       "categoria": "Smart TV",
-      "imagen": "https://example.com/images/smart-tv-samsung.jpg"
+      "imagen": "../assets/images/smart-55-S.jpg"
   },
   {
       "id": 2,
-      "nombre": "Smart TV LG 65\"",
-      "precio": 320000,
+      "nombre": "Smart TV Samsung Oled 8K 65\"",
+      "precio": 1250000,
       "categoria": "Smart TV",
-      "imagen": "https://example.com/images/smart-tv-lg.jpg"
+      "imagen": "../assets/images/smart-65-S.jpg"
   },
   {
       "id": 3,
-      "nombre": "Smart TV Sony 43\"",
-      "precio": 280000,
+      "nombre": "Smart TV Samsung 43\"",
+      "precio": 580000,
       "categoria": "Smart TV",
       "imagen": "../assets/images/smart-43-S.jpg"
   },
   {
       "id": 4,
-      "nombre": "Smartphone Samsung Galaxy S21",
-      "precio": 120000,
+      "nombre": "Samsung Galaxy S24 Ultra",
+      "precio": 2500000,
       "categoria": "Smartphone",
-      "imagen": "https://example.com/images/samsung-galaxy-s21.jpg"
+      "imagen": "../assets/images/s24ultra.png"
   },
   {
       "id": 5,
-      "nombre": "Smartphone iPhone 13",
-      "precio": 150000,
+      "nombre": "Smartphone iPhone 16",
+      "precio": 3350000,
       "categoria": "Smartphone",
-      "imagen": "https://example.com/images/iphone-13.jpg"
+      "imagen": "../assets/images/Iphone16.jpg"
   },
   {
       "id": 6,
-      "nombre": "Smartphone Xiaomi Mi 11",
-      "precio": 80000,
+      "nombre": "Samsung Z-Fold 6",
+      "precio": 3300000,
       "categoria": "Smartphone",
-      "imagen": "https://example.com/images/xiaomi-mi-11.jpg"
+      "imagen": "../assets/images/zfold6.png"
   },
   {
       "id": 7,
-      "nombre": "Proyector Epson X3000",
-      "precio": 60000,
+      "nombre": "The Premiere Samsung 100´ 4k",
+      "precio": 1390000,
       "categoria": "Proyector",
-      "imagen": "https://example.com/images/proyector-epson.jpg"
+      "imagen": "../assets/images/the-premiere.jpg"
   },
   {
       "id": 8,
-      "nombre": "Proyector BenQ W2700",
-      "precio": 70000,
+      "nombre": "Proyector Xiaomi 4K",
+      "precio": 900000,
       "categoria": "Proyector",
-      "imagen": "https://example.com/images/proyector-benq.jpg"
+      "imagen": "../assets/images/PROYECTOR-4K-XIAOMI-2.jpg"
   },
   {
       "id": 9,
-      "nombre": "Proyector LG PF50KA",
-      "precio": 50000,
+      "nombre": "Proyector Android 4K",
+      "precio": 780000,
       "categoria": "Proyector",
-      "imagen": "https://example.com/images/proyector-lg.jpg"
+      "imagen": "../assets/images/D_NQ_NP_965300-CBT77393937154_072024-O.png"
   },
   {
       "id": 10,
-      "nombre": "PC Gamer ASUS ROG",
-      "precio": 1500000,
+      "nombre": "PC Gamer Ryzen 9 128Gb RAM",
+      "precio": 5350000,
       "categoria": "PC Gamer",
-      "imagen": "https://example.com/images/pc-gamer-asus.jpg"
+      "imagen": "../assets/images/ryzen9-128gb.jpg"
   },
   {
       "id": 11,
-      "nombre": "PC Gamer Alienware",
-      "precio": 1800000,
+      "nombre": "PC Gamer Intel 7 ASUS",
+      "precio": 3800000,
       "categoria": "PC Gamer",
-      "imagen": "https://example.com/images/pc-gamer-alienware.jpg"
+      "imagen": "../assets/images/pc-gamer-i7.jpg"
   },
   {
       "id": 12,
-      "nombre": "PC Gamer MSI Trident",
-      "precio": 1200000,
+      "nombre": "PC Gamer MSI Trident I9",
+      "precio": 5200000,
       "categoria": "PC Gamer",
-      "imagen": "https://example.com/images/pc-gamer-msi.jpg"
+      "imagen": "../assets/images/pcgamer-i9.jpg"
   }
 ]

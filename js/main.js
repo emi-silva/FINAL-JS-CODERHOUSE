@@ -91,8 +91,11 @@ function vaciarCarrito() {
 // Función para mostrar/ocultar el carrito (toggle)
 function toggleCarrito() {
     const carritoModal = document.getElementById("shopping-cart");
-    console.log("Toggling carrito");
-    carritoModal.classList.toggle("hidden"); // Alternar visibilidad del carrito
+    const overlay = document.getElementById("shopping-cart-overlay");
+
+    // Alternar la clase 'visible' para mostrar o esconder el modal y el overlay
+    carritoModal.classList.toggle("visible");
+    overlay.classList.toggle("visible");
 }
 
 // Cargar los productos al cargar la página
@@ -100,3 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
     cargarProductos();
     mostrarCarrito();
 });
+
+// Alerta simple para probar SweetAlert2
+Swal.fire('¡Hola Emiliano! Esta es una alerta de prueba.');
