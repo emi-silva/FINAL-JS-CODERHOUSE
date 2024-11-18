@@ -18,7 +18,7 @@
       "nombre": "Smart TV Sony 43\"",
       "precio": 280000,
       "categoria": "Smart TV",
-      "imagen": "../images/smart-43-S.jpg"
+      "imagen": "../assets/images/smart-43-S.jpg"
   },
   {
       "id": 4,
