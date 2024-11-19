@@ -35,7 +35,7 @@
             <p><strong>Electrónica Rosario</strong>, como parte de <strong>esweb.com</strong>, es tu aliado ideal para mantenerte actualizado con lo último en tecnología. Nos enorgullece ser parte de tu día a día, proporcionando productos que mejoran tu vida digital.</p>
         </div>
     </section>
-
+    
     <section id="productos-titulo">
         <h2>Nuestros Productos</h2>
     </section>    
@@ -72,124 +72,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
     <script src="./js/main.js"></script>
-
-    <!-- Agregar los productos dinámicamente desde el JSON -->
-    <script>
-      // Datos de productos
-      const productos = [
-        {
-          "id": 1,
-          "nombre": "Smart TV Samsung 55\"",
-          "precio": 950000,
-          "categoria": "Smart TV",
-          "imagen": "../assets/image/smart-55-S.jpg"
-        },
-        {
-          "id": 2,
-          "nombre": "Smart TV Samsung Oled 8K 65\"",
-          "precio": 1250000,
-          "categoria": "Smart TV",
-          "imagen": "../image/smart-65-S.jpg"
-        },
-        {
-          "id": 3,
-          "nombre": "Smart TV Samsung 43\"",
-          "precio": 580000,
-          "categoria": "Smart TV",
-          "imagen": "../image/smart-43-S.jpg"
-        },
-        {
-          "id": 4,
-          "nombre": "Samsung Galaxy S24 Ultra",
-          "precio": 2500000,
-          "categoria": "Smartphone",
-          "imagen": "/assets/images/s24ultra.png"
-        },
-        {
-          "id": 5,
-          "nombre": "Smartphone iPhone 16",
-          "precio": 3350000,
-          "categoria": "Smartphone",
-          "imagen": "/assets/images/Iphone16.jpg"
-        },
-        {
-          "id": 6,
-          "nombre": "Samsung Z-Fold 6",
-          "precio": 3300000,
-          "categoria": "Smartphone",
-          "imagen": "../assets/images/zfold6.png"
-        },
-        {
-          "id": 7,
-          "nombre": "The Premiere Samsung 100´ 4k",
-          "precio": 1390000,
-          "categoria": "Proyector",
-          "imagen": "../assets/images/the-premiere.jpg"
-        },
-        {
-          "id": 8,
-          "nombre": "Proyector Xiaomi 4K",
-          "precio": 900000,
-          "categoria": "Proyector",
-          "imagen": "../assets/images/PROYECTOR-4K-XIAOMI-2.jpg"
-        },
-        {
-          "id": 9,
-          "nombre": "Proyector Android 4K",
-          "precio": 780000,
-          "categoria": "Proyector",
-          "imagen": "../assets/images/D_NQ_NP_965300-CBT77393937154_072024-O.png"
-        },
-        {
-          "id": 10,
-          "nombre": "PC Gamer Ryzen 9 128Gb RAM",
-          "precio": 5350000,
-          "categoria": "PC Gamer",
-          "imagen": "../assets/images/ryzen9-128gb.jpg"
-        },
-        {
-          "id": 11,
-          "nombre": "PC Gamer Intel 7 ASUS",
-          "precio": 3800000,
-          "categoria": "PC Gamer",
-          "imagen": "../assets/images/pc-gamer-i7.jpg"
-        },
-        {
-          "id": 12,
-          "nombre": "PC Gamer MSI Trident I9",
-          "precio": 5200000,
-          "categoria": "PC Gamer",
-          "imagen": "../assets/images/pcgamer-i9.jpg"
-        }
-      ];
-
-      // Seleccionar el contenedor donde se agregarán los productos
-      const contenedorProductos = document.getElementById('productos-container');
-
-      // Recorrer el array de productos y agregarlos al HTML
-      productos.forEach(producto => {
-        // Crear un div para cada producto
-        const productoDiv = document.createElement('div');
-        productoDiv.classList.add('producto');
-
-        // Crear el HTML para cada producto
-        productoDiv.innerHTML = `
-          <h3>${producto.nombre}</h3>
-          <img src="${producto.imagen}" alt="${producto.nombre}" class="producto-imagen">
-          <p>Precio: $${producto.precio}</p>
-          <p>Categoría: ${producto.categoria}</p>
-          <button onclick="agregarAlCarrito(${producto.id})">Agregar al carrito</button>
-        `;
-
-        // Agregar el producto al contenedor
-        contenedorProductos.appendChild(productoDiv);
-      });
-
-      // Función para agregar productos al carrito
-      function agregarAlCarrito(idProducto) {
-        // Aquí iría la lógica para agregar el producto al carrito
-        console.log('Producto agregado al carrito:', idProducto);
-      }
-    </script>
 </body>
 </html>

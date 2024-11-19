@@ -4,83 +4,83 @@
       "nombre": "Smart TV Samsung 55\"",
       "precio": 950000,
       "categoria": "Smart TV",
-      "imagen": "../assets/image/smart-55-S.jpg"
+      "imagen": "assets/image/smart-55-S.jpg"
   },
   {
       "id": 2,
       "nombre": "Smart TV Samsung Oled 8K 65\"",
       "precio": 1250000,
       "categoria": "Smart TV",
-      "imagen": "../assets/image/smart-65-S.jpg"
+      "imagen": "assets/image/smart-65-S.jpg"
   },
   {
       "id": 3,
       "nombre": "Smart TV Samsung 43\"",
       "precio": 580000,
       "categoria": "Smart TV",
-      "imagen": "../assets/image/smart-43-S.jpg"
+      "imagen": "assets/image/smart-43-S.jpg"
   },
   {
       "id": 4,
       "nombre": "Samsung Galaxy S24 Ultra",
       "precio": 2500000,
       "categoria": "Smartphone",
-      "imagen": "../assets/image/s24ultra.png"
+      "imagen": "assets/image/s24ultra.png"
   },
   {
       "id": 5,
       "nombre": "Smartphone iPhone 16",
       "precio": 3350000,
       "categoria": "Smartphone",
-      "imagen": "../assets/image/Iphone16.jpg"
+      "imagen": "assets/image/Iphone16.jpg"
   },
   {
       "id": 6,
       "nombre": "Samsung Z-Fold 6",
       "precio": 3300000,
       "categoria": "Smartphone",
-      "imagen": "../assets/image/zfold6.png"
+      "imagen": "assets/image/zfold6.png"
   },
   {
       "id": 7,
       "nombre": "The Premiere Samsung 100´ 4k",
       "precio": 1390000,
       "categoria": "Proyector",
-      "imagen": "../assets/image/the-premiere.jpg"
+      "imagen": "assets/image/the-premiere.jpg"
   },
   {
       "id": 8,
       "nombre": "Proyector Xiaomi 4K",
       "precio": 900000,
       "categoria": "Proyector",
-      "imagen": "../assets/image/PROYECTOR-4K-XIAOMI-2.jpg"
+      "imagen": "assets/image/PROYECTOR-4K-XIAOMI-2.jpg"
   },
   {
       "id": 9,
       "nombre": "Proyector Android 4K",
       "precio": 780000,
       "categoria": "Proyector",
-      "imagen": "../assets/image/D_NQ_NP_965300-CBT77393937154_072024-O.png"
+      "imagen": "assets/image/D_NQ_NP_965300-CBT77393937154_072024-O.png"
   },
   {
       "id": 10,
       "nombre": "PC Gamer Ryzen 9 128Gb RAM",
       "precio": 5350000,
       "categoria": "PC Gamer",
-      "imagen": "../assets/image/ryzen9-128gb.jpg"
+      "imagen": "assets/image/ryzen9-128gb.jpg"
   },
   {
       "id": 11,
       "nombre": "PC Gamer Intel 7 ASUS",
       "precio": 3800000,
       "categoria": "PC Gamer",
-      "imagen": "../assets/image/pc-gamer-i7.jpg"
+      "imagen": "assets/image/pc-gamer-i7.jpg"
   },
   {
       "id": 12,
       "nombre": "PC Gamer MSI Trident I9",
       "precio": 5200000,
       "categoria": "PC Gamer",
-      "imagen": "../assets/image/pcgamer-i9.jpg"
+      "imagen": "assets/image/pcgamer-i9.jpg"
   }
 ]
