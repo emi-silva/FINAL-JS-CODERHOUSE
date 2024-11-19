@@ -9,7 +9,7 @@ let productos = [];
 // Función para cargar los productos desde el archivo JSON
 async function cargarProductos() {
     try {
-        const response = await fetch('data/productos.json'); // O usa la ruta correcta si está en una subcarpeta
+        const response = await fetch('../data/productos.json'); // O usa la ruta correcta si está en una subcarpeta
         productos = await response.json(); // Guardamos los productos globalmente
         mostrarProductos(productos); // Llamar a la función para mostrar los productos
     } catch (error) {

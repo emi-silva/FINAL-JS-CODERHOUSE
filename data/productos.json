@@ -18,7 +18,7 @@
       "nombre": "Smart TV Samsung 43\"",
       "precio": 580000,
       "categoria": "Smart TV",
-      "imagen": "/assets/images/smart-43-S.jpg"
+      "imagen": "../assets/images/smart-55-S.jpg"
   },
   {
       "id": 4,
@@ -32,7 +32,7 @@
       "nombre": "Smartphone iPhone 16",
       "precio": 3350000,
       "categoria": "Smartphone",
-      "imagen": "../assets/images/Iphone16.jpg"
+      "imagen": "/assets/images/Iphone16.jpg"
   },
   {
       "id": 6,
