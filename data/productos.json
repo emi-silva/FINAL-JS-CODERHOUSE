@@ -4,28 +4,28 @@
       "nombre": "Smart TV Samsung 55\"",
       "precio": 950000,
       "categoria": "Smart TV",
-      "imagen": "../assets/images/smart-55-S.jpg"
+      "imagen": "/assets/images/smart-55-S.jpg"
   },
   {
       "id": 2,
       "nombre": "Smart TV Samsung Oled 8K 65\"",
       "precio": 1250000,
       "categoria": "Smart TV",
-      "imagen": "../assets/images/smart-65-S.jpg"
+      "imagen": "/assets/images/smart-65-S.jpg"
   },
   {
       "id": 3,
       "nombre": "Smart TV Samsung 43\"",
       "precio": 580000,
       "categoria": "Smart TV",
-      "imagen": "https://github.com/emi-silva/FINAL-JS-CODERHOUSE/blob/master/assets/images/smart-43-S.jpg"
+      "imagen": "/assets/images/smart-43-S.jpg"
   },
   {
       "id": 4,
       "nombre": "Samsung Galaxy S24 Ultra",
       "precio": 2500000,
       "categoria": "Smartphone",
-      "imagen": "../assets/images/s24ultra.png"
+      "imagen": "/assets/images/s24ultra.png"
   },
   {
       "id": 5,
