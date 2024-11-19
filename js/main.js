@@ -9,7 +9,7 @@ let productos = [];
 // Función para cargar los productos desde el archivo JSON
 async function cargarProductos() {
     try {
-        const response = await fetch('../data/productos.json'); // O usa la ruta correcta si está en una subcarpeta
+        const response = await fetch('data/productos.json'); 
         productos = await response.json(); // Guardamos los productos globalmente
         mostrarProductos(productos); // Llamar a la función para mostrar los productos
     } catch (error) {
@@ -36,7 +36,7 @@ function mostrarProductos(productos) {
     });
 }
 
-// Función para mostrar SweetAlert2 y confirmar la acción de agregar al carrito
+// Función para confirmar agregar al carrito
 function confirmarAgregarAlCarrito(id) {
     const producto = productos.find(p => p.id === id);
     
